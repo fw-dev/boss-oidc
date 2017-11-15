@@ -39,8 +39,9 @@ else:
 
 
 def check_username(username):
-    if len(username) > 30: # Django User username is 30 character limited
-        raise AuthenticationFailed(_('Username is too long for Django'))
+    pass
+    # if len(username) > 30: # Django User username is 30 character limited
+    #    raise AuthenticationFailed(_('Username is too long for Django'))
 
 def update_user_data(user, token):
     pass
